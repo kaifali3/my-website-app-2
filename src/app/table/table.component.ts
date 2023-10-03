@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-table',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent {
-
+  constructor(private router:Router){}
+  navigateToHome(){
+  this.router.navigate(['student-form']);
+}
 }

@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class StudentlistComponent {
   constructor(private router:Router){}
-  navigateToHome(){
+    navigateToHome(){
     this.router.navigate(['student-form']);
   }
 

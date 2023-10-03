@@ -2,7 +2,15 @@
   <h1>Student List</h1>
 </div>
 <div class="container">
-  <button (click)="navigateToHome()">Add Student</button>
+  <button (click)="navigateToHome()" class="btn btn-primary">Add Student</button>
+</div>
+<div>
+ <select class="select">
+  <option>2003-2004</option>
+  <option>2004-2005</option>
+  <option>2005-2006</option>
+  <option>2006-2007</option>
+</select>
 </div>
 <div class="container">
   <app-table></app-table>
